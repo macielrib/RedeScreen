@@ -1,0 +1,339 @@
+/*@Body and @Navbar*/
+@import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
+
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background-image: url("https://r4.wallpaperflare.com/wallpaper/218/318/414/minecraft-minecraft-dungeons-winter-minecraft-dungeons-creeping-winter-4k-hd-wallpaper-b8363db870600c68c07c419ee8b2942a.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.section-nav {
+  background-color: rgba(
+    50,
+    50,
+    50,
+    0.5
+  ); /* Altere o valor do canal alpha (0.8) para ajustar a transparência */
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.nav-moon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.count-players {
+  font-family: "Sora", sans-serif;
+  color: #fff;
+  font-weight: 600;
+  padding: 10px 14px;
+  
+  background-color: rgba(
+    255,
+    255,
+    255,
+    -0.1
+  ); /* Cor de fundo com transparência */
+  backdrop-filter: blur(5px); /* Aplica um efeito de desfoque */
+  border: 1px solid rgba(128, 128, 128, 0.5); /* Cor da borda quase imperceptível */
+}
+
+.count-players a {
+  text-decoration: none;
+  color: #fff;
+  transition: all .2s ease-in-out;
+}
+
+
+
+.number-players {
+  background-color: rgba(128, 128, 128, 0.3);
+  padding: 3px 5px;
+  border-radius: 3px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+
+.title-count {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.nav-center,
+.nav-right {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.nav-center li {
+  margin: 0 20px;
+}
+
+.nav-center a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.nav-center .nav-item a {
+  font-family: "Sora", sans-serif;
+  font-weight: 700;
+}
+
+.nav-center .nav-item:first-child a {
+  background-color: #ff9008;
+  padding: 8px 30px;
+  font-family: "Sora", sans-serif;
+  font-weight: 700;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 10);
+}
+
+.welcome-nav {
+  margin: 0 10px;
+  color: #fff;
+  font-family: 'Sora', sans-serif;
+  font-weight: 700;
+}
+.account-icon{
+  width: 15%;
+}
+.btn-account,
+.btn-cart {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 5px;
+  transition: all .2s ease-in-out;
+  font-family: 'Sora', sans-serif;
+  font-weight: 700;
+}
+
+.btn-account:hover,
+.btn-cart:hover { 
+  transform: scale(1.05);
+}
+
+.btn-account {
+  background-color: rgba(
+    255,
+    255,
+    255,
+    -0.1
+  ); /* Cor de fundo com transparência */
+  backdrop-filter: blur(10px); /* Aplica um efeito de desfoque */
+  border: 1px solid rgba(128, 128, 128, 0.3); /* Cor da borda quase imperceptível */
+  padding: 2px 12px;
+  transition: .2s all ease-in-out;
+}
+
+.btn-cart {
+  background-color: #ff9008;
+  backdrop-filter: blur(10px); /* Aplica um efeito de desfoque */
+  border: 1px solid rgba(128, 128, 128, 0.3); /* Cor da borda quase imperceptível */
+  padding: 2px 12px;
+}
+
+.btn-cart::after {
+  content: "2";
+  display: inline-block;
+  color: #fff;
+  padding: 1px 5px;
+  border-radius: 50%;
+  margin-left: 5px;
+}
+
+/*Ends @Navbar*/
+
+.section-header {
+  background-color: rgba(25, 25, 25, 0.8);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  max-width: 190%;
+}
+
+.section-header h1 {
+  font-family: "Sora", sans-serif;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 200px;
+  color: transparent;
+  text-align: center;
+  margin-top: -8rem;
+  margin-bottom: 17rem;
+  padding-left: 21%;
+  max-width: 120rem;
+  background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.section-header h5 {
+  font-family: "Poppins", system-ui;
+  font-size: 30px;
+  margin-bottom: 7.7rem;
+  margin-top: -2rem;
+  color: #fff;
+  text-align: right;
+  margin-right: -3rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.header-logo {
+  width: 28%;
+  margin-top: 5%; /* Ajusta a posição vertical da logo acima do texto */
+  left: 17%; /* Posiciona a logo no centro horizontalmente */
+  transform: translateX(-50%); /* Centraliza a logo horizontalmente */
+  z-index: 1; /* Garante que a logo fique acima do texto */
+  position: absolute;
+  top: 0; /* Posição inicial */
+  animation: moveUpDown 1.2s infinite alternate; /* 3s para cada ciclo e loop infinito */
+}
+
+
+
+/*About Screen*/
+
+.card-about {
+  position: absolute; /* Posicionamento absoluto para permitir controle preciso */
+  bottom: 50px; /* Alinha o card na parte inferior, com um pequeno espaçamento */
+  left: 150px; /* Alinha o card mais à esquerda */
+  max-width: 550px; /* Largura máxima do card */
+  margin-top: 10px;
+  padding: 15px; /* Espaçamento interno do card */
+  background-color: rgba(
+    255,
+    255,
+    255,
+    -0.1
+  ); /* Cor de fundo com transparência */
+  backdrop-filter: blur(10px); /* Aplica um efeito de desfoque */
+  border: 1px solid rgba(128, 128, 128, 0.3); /* Cor da borda quase imperceptível */
+  border-radius: 4px; /* Borda arredondada */
+
+  margin-left: 20px;
+}
+
+.card-about h5 {
+  font-family: "Sora", sans-serif; /* Fonte 'Poppins' */
+  font-size: 20px; /* Tamanho do título reduzido */
+  margin-bottom: 10px; /* Ajuste a margem inferior */
+  margin-top: 0; /* Remove a margem superior para posicionar o título no topo */
+  color: #fff;
+  text-align: left; /* Alinha o texto do título à esquerda */
+  font-weight: 800;
+
+  padding-top: 10px;
+  text-transform: uppercase;
+}
+
+.card-about p {
+  font-family: "Sora", sans-serif; /* Fonte 'Sora' */
+  font-size: 15px; /* Tamanho do texto reduzido */
+  line-height: 1.5; /* Altura da linha para melhor legibilidade */
+  text-align: left;
+  color: #fff; /* Cor do texto */
+}
+
+.customers {
+  display: flex;
+  align-items: center; /* Alinha os itens verticalmente */
+}
+
+.item-customer {
+  font-size: 20px; /* Tamanho dos ícones */
+  color: #fff; /* Cor dos ícones */
+  margin-right: 5px; /* Margem negativa para compensar o espaçamento */
+}
+
+.redes-sociais{
+  margin-left: 0.2rem;
+}
+.item-social{
+  font-size: 20px; /* Tamanho dos ícones */
+  color: #fff; /* Cor dos ícones */
+  margin-right: 5px; /* Margem negativa para compensar o espaçamento */
+  background-color: transparent;
+  backdrop-filter: blur(10px); /* Aplica um efeito de desfoque */
+  border: 1px solid rgba(128, 128, 128, 0.3); /* Cor da borda quase imperceptível */
+  padding: 10px 10px;
+  transition: .2s all ease-in-out;
+}
+
+.item-social:hover{
+  transform: translateY(-5px); /* Move o botão para cima ao passar o mouse */
+}
+.number-rating {
+  color: #fff; /* Cor do texto */
+  margin-left: auto; /* Empurra o texto para a direita */
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-left: 0.2rem;
+}
+
+.btn-rating-right {
+  color: #fff; /* Cor do texto */
+  background-color: #2f2e31; /* Cor de fundo do botão */
+  padding: 4px 13px; /* Espaçamento interno do botão ajustado */
+  border-radius: 0px; /* Borda arredondada */
+  text-decoration: none; /* Remove o sublinhado padrão */
+  margin-top: 2px; /* Espaçamento superior */
+  margin-left: 90px;
+  display: inline-block; /* Permite ajuste de largura */
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  border: 1px solid rgba(128, 128, 128, 0.2); /* Cor da borda quase imperceptível */
+  border-radius: 0px;
+  text-transform: uppercase;
+  transition: 0.3s all ease-in-out;
+  
+}
+
+.btn-rating-right:hover {
+  transform: translateY(-5px); /* Move o botão para cima ao passar o mouse */
+
+}
+
+.arrow-item {
+  margin-left: 0.4rem;
+  margin-top: 0.2rem;
+  font-weight: 900;
+}
+
+.text-primary {
+  font-family: "Sora", sans-serif;
+  color: #ff9008;
+}
+
+.always-alert {
+  float: right !important; /* Alinha o card ao lado direito */
+
+  margin-left: 42%; /* Adiciona uma margem à esquerda para separar do card anterior */
+}
+
+@keyframes moveUpDown {
+  0% {
+    top: 0; /* Posição inicial */
+  }
+  100% {
+    top: -15px; /* Posição final */
+  }
+}
