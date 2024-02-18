@@ -12,12 +12,11 @@ body {
 }
 
 .section-nav {
-  background-color: rgba(
-    50,
-    50,
-    50,
-    0.5
-  ); /* Altere o valor do canal alpha (0.8) para ajustar a transparência */
+  background-color: rgba(50,
+      50,
+      50,
+      0.5);
+  /* Altere o valor do canal alpha (0.8) para ajustar a transparência */
   padding: 10px 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
@@ -36,15 +35,16 @@ body {
   color: #fff;
   font-weight: 600;
   padding: 10px 14px;
-  
-  background-color: rgba(
-    255,
-    255,
-    255,
-    -0.1
-  ); /* Cor de fundo com transparência */
-  backdrop-filter: blur(5px); /* Aplica um efeito de desfoque */
-  border: 1px solid rgba(128, 128, 128, 0.5); /* Cor da borda quase imperceptível */
+
+  background-color: rgba(255,
+      255,
+      255,
+      -0.1);
+  /* Cor de fundo com transparência */
+  backdrop-filter: blur(5px);
+  /* Aplica um efeito de desfoque */
+  border: 1px solid rgba(128, 128, 128, 0.5);
+  /* Cor da borda quase imperceptível */
 }
 
 .count-players a {
@@ -109,9 +109,11 @@ body {
   font-family: 'Sora', sans-serif;
   font-weight: 700;
 }
-.account-icon{
+
+.account-icon {
   width: 15%;
 }
+
 .btn-account,
 .btn-cart {
   color: #fff;
@@ -123,27 +125,30 @@ body {
 }
 
 .btn-account:hover,
-.btn-cart:hover { 
+.btn-cart:hover {
   transform: scale(1.05);
 }
 
 .btn-account {
-  background-color: rgba(
-    255,
-    255,
-    255,
-    -0.1
-  ); /* Cor de fundo com transparência */
-  backdrop-filter: blur(10px); /* Aplica um efeito de desfoque */
-  border: 1px solid rgba(128, 128, 128, 0.3); /* Cor da borda quase imperceptível */
+  background-color: rgba(255,
+      255,
+      255,
+      -0.1);
+  /* Cor de fundo com transparência */
+  backdrop-filter: blur(10px);
+  /* Aplica um efeito de desfoque */
+  border: 1px solid rgba(128, 128, 128, 0.3);
+  /* Cor da borda quase imperceptível */
   padding: 2px 12px;
   transition: .2s all ease-in-out;
 }
 
 .btn-cart {
   background-color: #ff9008;
-  backdrop-filter: blur(10px); /* Aplica um efeito de desfoque */
-  border: 1px solid rgba(128, 128, 128, 0.3); /* Cor da borda quase imperceptível */
+  backdrop-filter: blur(10px);
+  /* Aplica um efeito de desfoque */
+  border: 1px solid rgba(128, 128, 128, 0.3);
+  /* Cor da borda quase imperceptível */
   padding: 2px 12px;
 }
 
@@ -198,13 +203,19 @@ body {
 
 .header-logo {
   width: 28%;
-  margin-top: 5%; /* Ajusta a posição vertical da logo acima do texto */
-  left: 17%; /* Posiciona a logo no centro horizontalmente */
-  transform: translateX(-50%); /* Centraliza a logo horizontalmente */
-  z-index: 1; /* Garante que a logo fique acima do texto */
+  margin-top: 5%;
+  /* Ajusta a posição vertical da logo acima do texto */
+  left: 17%;
+  /* Posiciona a logo no centro horizontalmente */
+  transform: translateX(-50%);
+  /* Centraliza a logo horizontalmente */
+  z-index: 1;
+  /* Garante que a logo fique acima do texto */
   position: absolute;
-  top: 0; /* Posição inicial */
-  animation: moveUpDown 1.2s infinite alternate; /* 3s para cada ciclo e loop infinito */
+  top: 0;
+  /* Posição inicial */
+  animation: moveUpDown 1.2s infinite alternate;
+  /* 3s para cada ciclo e loop infinito */
 }
 
 
@@ -212,32 +223,44 @@ body {
 /*About Screen*/
 
 .card-about {
-  position: absolute; /* Posicionamento absoluto para permitir controle preciso */
-  bottom: 50px; /* Alinha o card na parte inferior, com um pequeno espaçamento */
-  left: 150px; /* Alinha o card mais à esquerda */
-  max-width: 550px; /* Largura máxima do card */
+  position: absolute;
+  /* Posicionamento absoluto para permitir controle preciso */
+  bottom: 50px;
+  /* Alinha o card na parte inferior, com um pequeno espaçamento */
+  left: 150px;
+  /* Alinha o card mais à esquerda */
+  max-width: 550px;
+  /* Largura máxima do card */
   margin-top: 10px;
-  padding: 15px; /* Espaçamento interno do card */
-  background-color: rgba(
-    255,
-    255,
-    255,
-    -0.1
-  ); /* Cor de fundo com transparência */
-  backdrop-filter: blur(10px); /* Aplica um efeito de desfoque */
-  border: 1px solid rgba(128, 128, 128, 0.3); /* Cor da borda quase imperceptível */
-  border-radius: 4px; /* Borda arredondada */
+  padding: 15px;
+  /* Espaçamento interno do card */
+  background-color: rgba(255,
+      255,
+      255,
+      -0.1);
+  /* Cor de fundo com transparência */
+  backdrop-filter: blur(10px);
+  /* Aplica um efeito de desfoque */
+  border: 1px solid rgba(128, 128, 128, 0.3);
+  /* Cor da borda quase imperceptível */
+  border-radius: 4px;
+  /* Borda arredondada */
 
   margin-left: 20px;
 }
 
 .card-about h5 {
-  font-family: "Sora", sans-serif; /* Fonte 'Poppins' */
-  font-size: 20px; /* Tamanho do título reduzido */
-  margin-bottom: 10px; /* Ajuste a margem inferior */
-  margin-top: 0; /* Remove a margem superior para posicionar o título no topo */
+  font-family: "Sora", sans-serif;
+  /* Fonte 'Poppins' */
+  font-size: 20px;
+  /* Tamanho do título reduzido */
+  margin-bottom: 10px;
+  /* Ajuste a margem inferior */
+  margin-top: 0;
+  /* Remove a margem superior para posicionar o título no topo */
   color: #fff;
-  text-align: left; /* Alinha o texto do título à esquerda */
+  text-align: left;
+  /* Alinha o texto do título à esquerda */
   font-weight: 800;
 
   padding-top: 10px;
@@ -245,44 +268,62 @@ body {
 }
 
 .card-about p {
-  font-family: "Sora", sans-serif; /* Fonte 'Sora' */
-  font-size: 15px; /* Tamanho do texto reduzido */
-  line-height: 1.5; /* Altura da linha para melhor legibilidade */
+  font-family: "Sora", sans-serif;
+  /* Fonte 'Sora' */
+  font-size: 15px;
+  /* Tamanho do texto reduzido */
+  line-height: 1.5;
+  /* Altura da linha para melhor legibilidade */
   text-align: left;
-  color: #fff; /* Cor do texto */
+  color: #fff;
+  /* Cor do texto */
 }
 
 .customers {
   display: flex;
-  align-items: center; /* Alinha os itens verticalmente */
+  align-items: center;
+  /* Alinha os itens verticalmente */
 }
 
 .item-customer {
-  font-size: 20px; /* Tamanho dos ícones */
-  color: #fff; /* Cor dos ícones */
-  margin-right: 5px; /* Margem negativa para compensar o espaçamento */
+  font-size: 20px;
+  /* Tamanho dos ícones */
+  color: #fff;
+  /* Cor dos ícones */
+  margin-right: 5px;
+  /* Margem negativa para compensar o espaçamento */
 }
 
-.redes-sociais{
+.redes-sociais {
   margin-left: 0.2rem;
 }
-.item-social{
-  font-size: 20px; /* Tamanho dos ícones */
-  color: #fff; /* Cor dos ícones */
-  margin-right: 5px; /* Margem negativa para compensar o espaçamento */
+
+.item-social {
+  font-size: 20px;
+  /* Tamanho dos ícones */
+  color: #fff;
+  /* Cor dos ícones */
+  margin-right: 5px;
+  /* Margem negativa para compensar o espaçamento */
   background-color: transparent;
-  backdrop-filter: blur(10px); /* Aplica um efeito de desfoque */
-  border: 1px solid rgba(128, 128, 128, 0.3); /* Cor da borda quase imperceptível */
+  backdrop-filter: blur(10px);
+  /* Aplica um efeito de desfoque */
+  border: 1px solid rgba(128, 128, 128, 0.3);
+  /* Cor da borda quase imperceptível */
   padding: 10px 10px;
   transition: .2s all ease-in-out;
 }
 
-.item-social:hover{
-  transform: translateY(-5px); /* Move o botão para cima ao passar o mouse */
+.item-social:hover {
+  transform: translateY(-5px);
+  /* Move o botão para cima ao passar o mouse */
 }
+
 .number-rating {
-  color: #fff; /* Cor do texto */
-  margin-left: auto; /* Empurra o texto para a direita */
+  color: #fff;
+  /* Cor do texto */
+  margin-left: auto;
+  /* Empurra o texto para a direita */
   font-family: "Poppins", sans-serif;
   font-weight: 800;
   text-transform: uppercase;
@@ -290,25 +331,34 @@ body {
 }
 
 .btn-rating-right {
-  color: #fff; /* Cor do texto */
-  background-color: #2f2e31; /* Cor de fundo do botão */
-  padding: 4px 13px; /* Espaçamento interno do botão ajustado */
-  border-radius: 0px; /* Borda arredondada */
-  text-decoration: none; /* Remove o sublinhado padrão */
-  margin-top: 2px; /* Espaçamento superior */
+  color: #fff;
+  /* Cor do texto */
+  background-color: #2f2e31;
+  /* Cor de fundo do botão */
+  padding: 4px 13px;
+  /* Espaçamento interno do botão ajustado */
+  border-radius: 0px;
+  /* Borda arredondada */
+  text-decoration: none;
+  /* Remove o sublinhado padrão */
+  margin-top: 2px;
+  /* Espaçamento superior */
   margin-left: 90px;
-  display: inline-block; /* Permite ajuste de largura */
+  display: inline-block;
+  /* Permite ajuste de largura */
   font-family: "Poppins", sans-serif;
   font-weight: 600;
-  border: 1px solid rgba(128, 128, 128, 0.2); /* Cor da borda quase imperceptível */
+  border: 1px solid rgba(128, 128, 128, 0.2);
+  /* Cor da borda quase imperceptível */
   border-radius: 0px;
   text-transform: uppercase;
   transition: 0.3s all ease-in-out;
-  
+
 }
 
 .btn-rating-right:hover {
-  transform: translateY(-5px); /* Move o botão para cima ao passar o mouse */
+  transform: translateY(-5px);
+  /* Move o botão para cima ao passar o mouse */
 
 }
 
@@ -324,16 +374,154 @@ body {
 }
 
 .always-alert {
-  float: right !important; /* Alinha o card ao lado direito */
+  float: right !important;
+  /* Alinha o card ao lado direito */
 
-  margin-left: 42%; /* Adiciona uma margem à esquerda para separar do card anterior */
+  margin-left: 42%;
+  /* Adiciona uma margem à esquerda para separar do card anterior */
 }
 
 @keyframes moveUpDown {
   0% {
-    top: 0; /* Posição inicial */
+    top: 0;
+    /* Posição inicial */
   }
+
   100% {
-    top: -15px; /* Posição final */
+    top: -15px;
+    /* Posição final */
   }
 }
+
+/* @MediaQuerie Ultrawide (2560 x 900) */
+
+@media screen and (min-width: 2560px) {
+
+
+
+  /*Navbar 2560*/
+
+  .count-players {
+    padding: 14px 24px;
+    background-color: rgba(255,
+        255,
+        255,
+        -0.1);
+    /* Cor de fundo com transparência */
+    backdrop-filter: none;
+    margin-right: 6rem;
+    border: 1px solid rgba(128, 128, 128, 0.5);
+    /* Cor da borda quase imperceptível */
+  }
+
+  .count-players .title-count {
+    font-size: 32px;
+    width: 26rem;
+    padding-left: 0.8rem;
+  }
+
+  .nav-moon {
+    margin-left: 15%;
+  }
+
+  .nav-center .nav-item a {
+    font-size: 32px;
+  }
+
+  .nav-right .welcome-nav {
+    font-size: 32px;
+    width: 14rem;
+    padding-left: 8rem;
+  }
+
+  .btn-account {
+    padding: 10px 18px;
+    backdrop-filter: none;
+    font-size: 32px;
+  }
+
+  .btn-cart {
+    padding: 10px 18px;
+    width: 4.5rem;
+    font-size: 32px;
+    backdrop-filter: none;
+  }
+
+  /*Header 2560*/
+
+  .header-logo {
+    width: 20%;
+    margin-left: 5%;
+    margin-top: 7% !important;
+  }
+
+  /*Navbar 2560*/
+
+  .section-header h1 {
+    font-size: 280px;
+    margin-left: 0%;
+  }
+
+  /*Card About 2560*/
+
+  .card-about {
+    backdrop-filter: none;
+    max-width: 62rem;
+    margin-left: 6%;
+  }
+
+  .card-about h5 {
+    font-size: 36px;
+  }
+
+  .card-about p {
+    font-size: 24px;
+  }
+
+  .card-about .customers .item-customer {
+    font-size: 36px;
+    padding-left: 18px;
+  }
+
+  .card-about .customers p {
+    padding-left: 24px;
+    font-size: 30px;
+    width: 64rem;
+  }
+
+  .card-about .customers a {
+    font-size: 28px;
+    width: 65rem;
+    height: 3.5rem;
+    padding-top: 20px;
+    background-color: #191919;
+  }
+
+
+  .always-alert {
+    height: 19.9rem;
+    float: right !important;
+    margin-left: 47%;
+
+  }
+
+  .always-alert .redes-sociais {
+    margin-left: 0.5rem !important;
+  }
+
+  .always-alert .customers .item-social {
+    font-size: 36px;
+    backdrop-filter: none;
+    margin-left: 0.5rem;
+  }
+
+  .always-alert .customers p {
+    font-size: 30px;
+    width: 72rem;
+  }
+
+  /*Card About 2560*/
+
+}
+
+/* @MediaQuerie Ultrawide (2560 x 1080) */
